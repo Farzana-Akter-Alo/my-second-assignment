@@ -18,16 +18,26 @@
 
 
     <!-- nav star here -->
-    <nav class="flex justify-between items-center mt-[15px] container mx-auto ">
+    <nav class="flex justify-between items-center mt-[15px] container mx-auto px-4">
+
+
       <div>
-        <img class="w-[135px] h-[82px]" src="assets/logo.png" alt="A flower logo">
+        <img class="w-24 h-16 sm:w-28 sm:h-20 md:w-32 md:h-24  " src="assets/logo.png" alt="A flower logo">
       </div>
-      <ul class="flex gap-x-[20px]">
-        <li><a href="">Home</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">About us </a></li>
-        <img class="w-[24px] h-[24px]" src="assets/cart.png" alt="">
-        <li class="gap-x-[5px]"><a href="">Cart ($56)</a></li>
+
+
+      <ul class="flex items-center gap-x-[35px] ">
+
+        <!-- normal menu items -->
+        <li class=" hidden md:block text-black font-bold"><a href="">Home</a></li>
+        <li class=" hidden md:block text-[#8987A1]"><a href="">Shop</a></li>
+        <li class="hidden md:block text-[#8987A1]"><a href="">About us </a></li>
+
+        <!-- cart + text -->
+        <li class="flex justify-center gap-x-[5px] ">
+          <img class="w-6 h-6 sm:w-5 sm:h-5 md:w-6 md:h-6" src="assets/cart.png" alt="">
+          <a class="text-black-700" href="">Cart ($56)</a>
+        </li>
 
       </ul>
     </nav>
@@ -45,6 +55,28 @@
   <!-- main section start -->
   <main>
 
+    <section class="flex justify-between items-center container mx-auto mt-[6.25rem] h-[24rem] px-[1rem] ">
+
+      <!-- banner section start here -->
+      <div class="w-1/2">
+        <h1 class="text-[#000000] font-bold text-[3rem]">ALWAYS <span
+            class="text-[#E95A08] font-bold text-[3rem] ">FRESH</span>
+          <br>
+          <span class="text-[#E95A08] font-bold text-[3rem] ">FLOWERS</span>
+        </h1>
+        <p class="text-[#8987A1]">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From
+          classic roses to exotic
+          <br>
+          blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion.
+        </p>
+      </div>
+
+
+      <div class="w-1/2 h-[23rem]">
+        <img src="assets/hero-flower.png" alt="">
+      </div>
+
+    </section>
   </main>
   <!-- main section end -->
 
