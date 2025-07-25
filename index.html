@@ -263,7 +263,9 @@
       <!-- content section start -->
       <div class="w-full h-auto">
 
-        <h3 class=" text-2xl sm:text-4xl font-bold  pb-4 sm:pb-6">Flower & Plants Lover</h3>
+        <h3 class=" text-2xl sm:text-4xl font-bold  pb-4 sm:pb-6"> <span class="sm:block">Flower & Plants</span>
+          <span>Lover</span>
+        </h3>
 
         <ul
           class="list-disc ml-5 sm:ml-7 space-y-3 sm:space-y-4 text-xs sm:text-base pr-[.08rem] sm:pr-[.02rem] tracking-wide text-[#8987A1] ">
@@ -292,94 +294,102 @@
 
 
     <!-- deals section start here -->
-    <section class="container mx-auto px-4">
-
-
-
-
+    <section class="  container mx-auto px-4">
 
 
       <!-- deal content section start -->
-      <div class="text-center mb-[1.5rem] sm:mb-[4rem] mt-[7rem]">
-        <h2 class=" pb-[1.5rem] text-2xl sm:text-4xl font-bold"> <span class="text-[#E95A08] font-bold ">Latest</span>
-          Deals </h2>
-        <p class="text-[#8987A1] text-xs sm:text-sm px-[1.5rem] ">Indulge your senses with the beauty and fragrance of
-          our fresh
-          flower shop.
-          From <br> classic roses to
-          exotic
-          blooms, we offer a wide variety of fresh.</p>
+      <div class="text-center mt-[5rem] sm:mt-[7rem] mb-[2rem] sm:mb-[4rem] px-4">
+        <h2 class="pb-4 text-2xl sm:text-4xl font-bold">
+          <span class="text-[#E95A08] font-bold">Latest</span> Deals
+        </h2>
+
+        <p class="text-[#8987A1] text-sm sm:text-base leading-relaxed max-w-[600px] mx-auto">
+          Indulge your senses with the beauty and fragrance of our fresh flower shop.
+          From <br class="hidden sm:block"> classic roses to exotic blooms, we offer a wide variety of fresh.
+        </p>
       </div>
       <!-- deal content section end -->
 
 
-
-
-
-
       <!-- deal image section start -->
-      <div class="grid grid-cols-3 gap-4 ">
-
-
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
         <!-- Left side -->
         <div class="flex flex-col gap-4">
           <!-- Small deal 1 -->
-          <div class="relative h-32 rounded-lg overflow-hidden bg-[url('assets/deal-bloom.png')] bg-cover bg-center">
+          <div class="relative h-40 rounded-lg overflow-hidden bg-[url('assets/deal-bloom.png')] bg-cover bg-center">
             <div class="absolute inset-0 bg-black/40"></div>
-            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white font-bold">
+            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white font-bold text-base">
               <p>60% Off | Bloom Plant</p>
-              <span class="underline text-sm">Shop Now</span>
+              <a class="underline text-sm mt-1">Shop Now</a>
             </div>
           </div>
 
-
-
-
           <!-- Small deal 2 -->
-          <div class="relative h-32 rounded-lg overflow-hidden bg-[url('assets/deal-ana.png')] bg-cover bg-center">
+          <div class="relative h-40 rounded-lg overflow-hidden bg-[url('assets/deal-ana.png')] bg-cover bg-center">
             <div class="absolute inset-0 bg-black/40"></div>
-            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white font-bold">
+            <div class="relative z-10 flex flex-col items-center justify-center h-full text-white font-bold text-base">
               <p>30% Off | Ana Plant</p>
-              <span class="underline text-sm">Shop Now</span>
+              <a class="underline text-sm mt-1">Shop Now</a>
             </div>
           </div>
         </div>
-
-
-
 
         <!-- Right side (big deal) -->
         <div
-          class="col-span-2 relative h-68 rounded-lg overflow-hidden bg-[url('assets/deal-zabo.png')] bg-cover bg-center">
+          class="sm:col-span-2 relative h-40 sm:h-[336px] rounded-lg overflow-hidden bg-[url('assets/deal-zabo.png')] bg-cover bg-center">
           <div class="absolute inset-0 bg-black/40"></div>
           <div class="relative z-10 flex flex-col items-center justify-center h-full text-white font-bold">
-            <p class="text-2xl">25% Off | Zabo Plant</p>
-            <span class="underline mt-2">Shop Now</span>
+            <p class="text-base sm:text-2xl">25% Off | Zabo Plant</p>
+            <a class="underline mt-2 text-sm sm:text-base">Shop Now</a>
           </div>
-
-
-
-
-
-
-
-
-
         </div>
-
-
-
-
-        <!-- deal image section end -->
-
-
-
+      </div>
+      <!-- deal image section end -->
 
 
 
     </section>
     <!-- deals section end here -->
+
+
+
+
+    <!-- bunch section start here -->
+    <section
+      class=" relative w-full h-[300px] bg-[url('assets/news-letter-bg.png')] bg-cover bg-center flex items-center justify-center mt-20">
+
+
+      <div class="absolute inset-0 bg-black/30"></div>
+
+      <!-- Content -->
+      <div class="relative text-center text-white space-y-4">
+
+        <!-- Heading -->
+        <h2 class=" mb-[1.5rem] sm:mb-[2rem] mx-[2rem] text-2xl sm:text-4xl font-bold">Join the colorful bunch</h2>
+
+        <!-- Input + Button -->
+        <div class="flex justify-center items-center mx-[2rem]">
+          <input type="email" placeholder="Write email"
+            class=" bg-white pr-[6rem] px-2 sm:px-4 py-2 text-sm sm:text-xs  text-black w-full sm:w-124 max-w-[40rem] ">
+          <button class=" px-2 sm:px-4 sm:py-2  py-2 bg-[#E95A08] text-sm  sm:text-xs  font-bold hover:bg-orange-600">
+            Subscribe
+          </button>
+        </div>
+
+      </div>
+    </section>
+    <!-- bunch section end here -->
+
+
+
+
+
+
+
+
+
+
 
 
   </main>
